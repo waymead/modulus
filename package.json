@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "modulus",
+  "version": "0.1.0",
+  "description": "A WoW addon managr written in Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/waymead/modulus",
   "keywords": [
     "Electron",
     "quick",
@@ -14,7 +14,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "digbyk",
   "license": "CC0-1.0",
   "devDependencies": {
     "axios": "^0.20.0",
