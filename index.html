@@ -1,18 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
     <title>Hello World!</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
-
+    <header><nav>This is where the menu goes</nav></header>
+    <main>
+      <nav>
+        <h1>Games</h1>
+        <ul>
+          <li>World of Warcraft (Retail)</li>
+          <li>World of Warcraft (Classic)</li>
+          <li>Something else</li>
+        </ul>
+      </nav>
+      <article>
+        <h1>Your addons</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Action</th>
+              <th>Name</th>
+              <th>Version</th>
+              <th>Updated</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" name="" id="" /></td>
+              <td>Deadly Boss Mods</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        We are using Node.js <span id="node-version"></span>, Chromium
+        <span id="chrome-version"></span>, and Electron
+        <span id="electron-version"></span>.
+      </article>
+    </main>
+    <footer>footer</footer>
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
   </body>
